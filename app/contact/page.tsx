@@ -1,0 +1,1 @@
+export default function Page(){return <div className="section"><h1>Contact</h1><p className="small">Page contact. ThaiModel vend uniquement de la visibilité de profils et ne prend aucune commission sur les échanges privés.</p></div>}

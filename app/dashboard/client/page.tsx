@@ -1,0 +1,1 @@
+export default function ClientDashboard(){return <div className="section"><h1>Dashboard client</h1><p className="small">Retrouve tes favoris, commentaires et profils consultés.</p><div className="status">Favoris : bientôt connecté à Supabase.</div></div>}
