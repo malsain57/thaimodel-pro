@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react'
-import { supabase } from '@/lib/supabase'
+import { supabase } from '../../../lib/supabase'
 
 export default function AdminDashboard(){
  const [profiles,setProfiles]=useState<any[]>([]); const [msg,setMsg]=useState('')
