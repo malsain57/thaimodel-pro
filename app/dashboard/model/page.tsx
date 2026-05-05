@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import { supabase } from '@/lib/supabase'
+import { supabase } from '../../../lib/supabase'
 
 export default function ModelDashboard(){
  const [nickname,setNickname]=useState(''); const [city,setCity]=useState('Bangkok'); const [about,setAbout]=useState(''); const [msg,setMsg]=useState('')
