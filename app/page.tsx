@@ -1,5 +1,5 @@
-import ProfileCard from '@/components/ProfileCard'
-import { demoProfiles } from '@/lib/demo'
+import ProfileCard from '../components/ProfileCard'
+import { demoProfiles } from '../lib/demo'
 
 export default function HomePage(){
   return <div className="section">
