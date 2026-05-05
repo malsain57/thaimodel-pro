@@ -1,13 +1,32 @@
-# ThaiModel PRO
+# ThaiModel PRO V8 Functional
 
-Webapp Next.js + Supabase.
+Next.js + Supabase version of the ThaiModel V8 demo.
 
 ## Setup
-1. Créer projet Supabase.
-2. Copier `.env.local.example` en `.env.local`.
-3. Remplir `NEXT_PUBLIC_SUPABASE_URL` et `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
-4. Exécuter `supabase/schema.sql` dans Supabase SQL Editor.
-5. Déployer sur Vercel.
+
+1. Upload the content of this folder to GitHub.
+2. In Supabase, run `supabase/schema.sql` in SQL Editor.
+3. In Vercel, add:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=...
+NEXT_PUBLIC_SUPABASE_ANON_KEY=...
+```
+
+4. Deploy on Vercel.
+
+## Pages
+
+- `/` homepage V8 style
+- `/city/all` city/search page with advanced filters
+- `/profile/bella` profile page
+- `/auth/register` model/client registration
+- `/auth/login` login
+- `/dashboard/model` create/edit model profile + upload photo
+- `/dashboard/client` client dashboard
+- `/dashboard/admin` approve/reject profiles MVP
+- `/pricing`, `/terms`, `/privacy`, `/contact`
 
 ## Important
-Ne jamais mettre de clé secrète Supabase dans GitHub.
+
+This MVP sells profile visibility only. Public profiles require `is_approved = true` and `active_plan = true`.

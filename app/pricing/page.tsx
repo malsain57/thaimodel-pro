@@ -1,1 +1,2 @@
-export default function PricingPage(){return <div className="section"><h1>Plans & visibilité</h1><div className="plans"><div className="plan"><h3>1 semaine</h3><p className="small">Profil actif, photos, contact visible.</p></div><div className="plan featured"><h3>2 semaines SELECT</h3><p className="small">Meilleure visibilité + badge SELECT.</p></div><div className="plan"><h3>1 mois VIP</h3><p className="small">Visibilité longue durée + options boost.</p></div></div></div>}
+import ThaiModelApp from '../../components/ThaiModelApp'
+export default function Page(){ return <ThaiModelApp initialPage="pricing" /> }

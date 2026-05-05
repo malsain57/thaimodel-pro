@@ -1,1 +1,2 @@
-export default function Page(){return <div className="section"><h1>Privacy</h1><p className="small">Page privacy. ThaiModel vend uniquement de la visibilité de profils et ne prend aucune commission sur les échanges privés.</p></div>}
+import ThaiModelApp from '../../components/ThaiModelApp'
+export default function Page(){ return <ThaiModelApp initialPage="privacy" /> }
